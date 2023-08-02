@@ -40,5 +40,7 @@ function handleClick(e) {
   highlight.style.height = `${coords.height}px`;
   highlight.style.transform = `translate(${coords.left}px, ${coords.top}px)`;
 
+  // Show the menu associated to the clicked button
+
 
 
