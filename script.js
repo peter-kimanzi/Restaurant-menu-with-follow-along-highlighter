@@ -30,3 +30,4 @@ function handleClick(e) {
 
   // Set current dimensions and position of 'highlight' based on the clicked button 
   const buttonCoords = this.getBoundingClientRect();
+  const coords = {
