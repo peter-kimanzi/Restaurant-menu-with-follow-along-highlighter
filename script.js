@@ -21,3 +21,5 @@ function initialHightlightLocation() {
   highlight.style.height = `${initialCoords.height}px`;
   highlight.style.transform = `translate(${initialCoords.left}px, ${initialCoords.top}px)`;
 }
+
+fetch
