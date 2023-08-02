@@ -12,3 +12,4 @@ function initialHightlightLocation() {
 
   const initialCoords = {
     width: activeButtonCoords.width,
+    height: activeButtonCoords.height,
