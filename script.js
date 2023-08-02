@@ -48,5 +48,5 @@ function handleClick(e) {
   })
 }
 
-
+window.addEventListener('load', initialHightlightLocation);
 
