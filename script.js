@@ -15,3 +15,5 @@ function initialHightlightLocation() {
     height: activeButtonCoords.height,
     left: activeButtonCoords.left + window.scrollX,
     top: activeButtonCoords.top + window.scrollY
+  }
+
