@@ -43,7 +43,10 @@ function handleClick(e) {
   // Show the menu associated to the clicked button
   const targetMenu = document.querySelector(`#${this.dataset.target}`);
   menus.forEach(menu => {
-
+    menu.classList.remove('menu--is-visible');
+    targetMenu.classList.add('menu--is-visible');
+  })
+}
 
 
 
