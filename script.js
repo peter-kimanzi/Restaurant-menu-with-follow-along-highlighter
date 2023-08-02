@@ -28,3 +28,4 @@ function handleClick(e) {
   buttons.forEach(button => button.classList.remove('button--is-active'));
   this.classList.add('button--is-active');
 
+  // Set current dimensions and position of 'highlight' based on the clicked button 
