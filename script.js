@@ -18,3 +18,6 @@ function initialHightlightLocation() {
   }
 
   highlight.style.width = `${initialCoords.width}px`;
+  highlight.style.height = `${initialCoords.height}px`;
+  highlight.style.transform = `translate(${initialCoords.left}px, ${initialCoords.top}px)`;
+}
