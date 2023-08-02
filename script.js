@@ -36,3 +36,4 @@ function handleClick(e) {
     left: buttonCoords.left + window.scrollX,
     top: buttonCoords.top + window.scrollY
   }
+  highlight.style.width = `${coords.width}px`;
