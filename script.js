@@ -17,3 +17,4 @@ function initialHightlightLocation() {
     top: activeButtonCoords.top + window.scrollY
   }
 
+  highlight.style.width = `${initialCoords.width}px`;
