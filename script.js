@@ -22,4 +22,4 @@ function initialHightlightLocation() {
   highlight.style.transform = `translate(${initialCoords.left}px, ${initialCoords.top}px)`;
 }
 
-fetch
+f
