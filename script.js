@@ -32,3 +32,5 @@ function handleClick(e) {
   const buttonCoords = this.getBoundingClientRect();
   const coords = {
     width: buttonCoords.width,
+    height: buttonCoords.height,
+ 
