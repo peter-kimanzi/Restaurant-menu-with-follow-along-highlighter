@@ -37,3 +37,8 @@ function handleClick(e) {
     top: buttonCoords.top + window.scrollY
   }
   highlight.style.width = `${coords.width}px`;
+  highlight.style.height = `${coords.height}px`;
+  highlight.style.transform = `translate(${coords.left}px, ${coords.top}px)`;
+
+
+
