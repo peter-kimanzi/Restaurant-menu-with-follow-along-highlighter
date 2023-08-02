@@ -25,3 +25,6 @@ function initialHightlightLocation() {
 function handleClick(e) {
   e.preventDefault();
 
+  buttons.forEach(button => button.classList.remove('button--is-active'));
+  this.classList.add('button--is-active');
+
