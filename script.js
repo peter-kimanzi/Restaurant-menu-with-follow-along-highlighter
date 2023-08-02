@@ -49,4 +49,4 @@ function handleClick(e) {
 }
 
 window.addEventListener('load', initialHightlightLocation);
-
+window.addEventListener('resize', initialHightlightLocation);
