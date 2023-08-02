@@ -10,3 +10,5 @@ function initialHightlightLocation() {
   const activeButton = document.querySelector('.button--is-active');
   const activeButtonCoords = activeButton.getBoundingClientRect();
 
+  const initialCoords = {
+    width: activeButtonCoords.width,
