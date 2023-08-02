@@ -29,3 +29,4 @@ function handleClick(e) {
   this.classList.add('button--is-active');
 
   // Set current dimensions and position of 'highlight' based on the clicked button 
+  const buttonCoords = this.getBoundingClientRect();
