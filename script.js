@@ -23,3 +23,5 @@ function initialHightlightLocation() {
 }
 
 function handleClick(e) {
+  e.preventDefault();
+
