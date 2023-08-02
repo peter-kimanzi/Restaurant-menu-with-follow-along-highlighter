@@ -8,3 +8,5 @@ highlight.classList.add('highlight');
 // Set initial dimensions and position of 'highlight' based on activeButton coords 
 function initialHightlightLocation() {
   const activeButton = document.querySelector('.button--is-active');
+  const activeButtonCoords = activeButton.getBoundingClientRect();
+
