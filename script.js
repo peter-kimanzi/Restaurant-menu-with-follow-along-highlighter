@@ -41,6 +41,9 @@ function handleClick(e) {
   highlight.style.transform = `translate(${coords.left}px, ${coords.top}px)`;
 
   // Show the menu associated to the clicked button
+  const targetMenu = document.querySelector(`#${this.dataset.target}`);
+  menus.forEach(menu => {
+
 
 
 
