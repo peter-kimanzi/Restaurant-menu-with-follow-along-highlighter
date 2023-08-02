@@ -33,4 +33,4 @@ function handleClick(e) {
   const coords = {
     width: buttonCoords.width,
     height: buttonCoords.height,
- 
+    left: buttonCoords.left + window.scrollX,
