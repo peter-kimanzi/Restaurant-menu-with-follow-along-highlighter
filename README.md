@@ -1,6 +1,6 @@
 # Restaurant-menu-with-follow-along-highlighter
 
-Restaurant menu with follow along highlighter using JavaScript.
+Restaurant menu with follow along highlighter using JavaScript
 
 ## Live link
 
